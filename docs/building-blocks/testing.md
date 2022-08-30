@@ -20,7 +20,6 @@ This component renders a `<button>` element containing a checkmark icon and some
 #### `button.tsx`
 
 ```ts
-import * as React from 'react';
 import CheckmarkIcon from './CheckmarkIcon';
 
 function Button(props) {
@@ -93,7 +92,6 @@ This is our test setup:
 #### `button.test.tsx`
 
 ```ts
-import * as React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import Button from '../Button';
 
@@ -151,7 +149,6 @@ Our finished test file looks like this:
 #### `button.test.tsx`
 
 ```ts
-import * as React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import Button from '../Button';
 

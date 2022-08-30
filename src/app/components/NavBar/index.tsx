@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Logo } from './Logo';
 import { StyleConstants } from 'styles/StyleConstants';

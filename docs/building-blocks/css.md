@@ -17,7 +17,6 @@ This boilerplate also uses [`sanitize.css`](https://github.com/jonathantneal/san
 The example below creates two styled React components (`<Title>` and `<Wrapper>`) and renders them as children of the `<Header>` component:
 
 ```ts
-import * as React from 'react';
 import styled from 'styled-components/macro';
 
 // Create a <Title> React component that renders an <h1> which is
@@ -65,9 +64,8 @@ import { media } from 'styles/media';
 
 const SomeDiv = styled.div`
   display: flex;
-  ....
-    ${media.medium`
-      display: block
-  `};
+  .... ${media.medium} {
+    display: block;
+  }
 `;
 ```

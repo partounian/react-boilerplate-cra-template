@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Title } from '../components/Title';
 import { Lead } from '../components/Lead';

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Store } from '@reduxjs/toolkit';
 import { render, fireEvent, waitFor } from '@testing-library/react';
 import { Provider } from 'react-redux';

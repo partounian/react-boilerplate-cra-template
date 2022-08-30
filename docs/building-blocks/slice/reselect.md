@@ -41,7 +41,7 @@ export { myComplexSelector };
 #### `index.tsx`
 
 ```ts
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { selectUsername } from './slice/selectors';
 

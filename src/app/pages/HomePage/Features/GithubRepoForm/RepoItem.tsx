@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled from 'styled-components/macro';
 import { ReactComponent as StarIcon } from './assets/star.svg';
 import { ReactComponent as NewWindowIcon } from './assets/new-window.svg';

@@ -104,7 +104,7 @@ Let's use the hook we created above in our component
 #### `.../Homepage/index.tsx`
 
 ```ts
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useHomepageSlice } from './slice';
 import { selectUsername } from './slice/selectors';

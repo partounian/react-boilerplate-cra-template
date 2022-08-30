@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled from 'styled-components/macro';
 import { ReactComponent as CRALogo } from './assets/cra-logo.svg';
 import { ReactComponent as RPLogo } from './assets/rp-logo.svg';
